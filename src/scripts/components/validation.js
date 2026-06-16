@@ -61,7 +61,6 @@ const checkInputValidity = (formElement, inputElement, settings) => {
       customError &&
       (
         inputElement.validity.patternMismatch ||
-        inputElement.validity.valueMissing
       )
     ) {
       errorMessage = customError;
